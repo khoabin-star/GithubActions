@@ -36,7 +36,7 @@ namespace GithubActionsLab
         public void Sub_Valid_Tran()
         {
             Assert.AreEqual(8, Program.Subtract("10", "2"));
-            Assert.AreEqual(7, Program.Subtract("9", "3"));
+            Assert.AreEqual(6, Program.Subtract("9", "3"));
             Assert.AreEqual(2, Program.Subtract("7", "5"));
         }
 
